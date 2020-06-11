@@ -1,0 +1,152 @@
+<div class="sobre-container">
+  <div class="carousel carousel-slider center">
+    <div class="carousel-fixed-item center">
+      <a
+        class="btn-floating btn-medium waves-effect waves-light carousel-action"
+        id="carousel-back"
+      >
+        <i class="material-icons">keyboard_arrow_left</i>
+      </a>
+      <a
+        class="btn-floating btn-medium waves-effect waves-light carousel-action"
+        id="carousel-next"
+      >
+        <i class="material-icons">keyboard_arrow_right</i>
+      </a>
+    </div>
+
+    <!-- CARD 1 -->
+    <div class="carousel-item red white-text">
+      <div class="row container">
+        <div class="col s6 left-align info-center">
+          <h2>
+            100% disponibilidade
+          </h2>
+          <span style="font-size: 50px;">SERVIÇO WEB HOSTING</span>
+          <ul class="vantagens-container">
+            <li>
+              <i class="material-icons">done</i>
+              Espaço em disco ilimitado
+            </li>
+            <li>
+              <i class="material-icons">done</i>
+              Banda ilimitada
+            </li>
+            <li>
+              <i class="material-icons">done</i>
+              Proteção DDoS
+            </li>
+            <li>
+              <i class="material-icons">done</i>
+              Painel de controle avançado
+            </li>
+            <li>
+              <i class="material-icons">done</i>
+              Firewall customizavel
+            </li>
+          </ul>
+          <a class="waves-effect waves-light btn white btn-detalhes">
+            MAIS DETALHES
+          </a>
+        </div>
+        <div class="col s6 info-center">
+          <img src="/sources/sobre-1.png" height="300px" />
+        </div>
+      </div>
+    </div>
+
+    <!-- CARD 2 -->
+    <div class="carousel-item amber white-text">
+      <div class="row container">
+        <div class="col s6 left-align info-center">
+          <h2>
+            Painel de administração
+          </h2>
+          <span style="font-size: 50px;">VOCÊ NO CONTROLE</span>
+          <ul class="vantagens-container">
+            <li>
+              <i class="material-icons">done</i>
+              Configurações avançadas
+            </li>
+            <li>
+              <i class="material-icons">done</i>
+              Wizards de ajuda
+            </li>
+            <li>
+              <i class="material-icons">done</i>
+              Templates de configuração
+            </li>
+            <li>
+              <i class="material-icons">done</i>
+              Acesso mobile
+            </li>
+            <li>
+              <i class="material-icons">done</i>
+              Firewall customizavel
+            </li>
+          </ul>
+          <a class="waves-effect waves-light btn white btn-detalhes">
+            MAIS DETALHES
+          </a>
+        </div>
+        <div class="col s6 info-center">
+          <img src="/sources/sobre-2.png" height="300px" width="300px" />
+        </div>
+      </div>
+    </div>
+
+    <!-- CARD 3 -->
+    <div class="carousel-item green white-text">
+      <div class="row container">
+        <div class="col s6 left-align info-center">
+          <h2>
+            100% disponibilidade
+          </h2>
+          <span style="font-size: 50px;">SERVIÇO WEB HOSTING</span>
+          <ul class="vantagens-container">
+            <li>
+              <i class="material-icons">done</i>
+              Espaço em disco ilimitado
+            </li>
+            <li>
+              <i class="material-icons">done</i>
+              Banda ilimitada
+            </li>
+            <li>
+              <i class="material-icons">done</i>
+              Proteção DDoS
+            </li>
+            <li>
+              <i class="material-icons">done</i>
+              Painel de controle avançado
+            </li>
+            <li>
+              <i class="material-icons">done</i>
+              Firewall customizavel
+            </li>
+          </ul>
+
+          <a class="waves-effect waves-light btn white btn-detalhes">
+            MAIS DETALHES
+          </a>
+        </div>
+        <div class="col s6 info-center">
+          <img src="/sources/sobre-1.png" height="300px" />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+  $(document).ready(function () {
+    $(".carousel.carousel-slider").carousel({ fullWidth: true });
+    $("#carousel-back").click(function (evt) {
+      evt.preventDefault();
+      $(".carousel").carousel("prev");
+    });
+    $("#carousel-next").click(function (evt) {
+      evt.preventDefault();
+      $(".carousel").carousel("next");
+    });
+  });
+</script>

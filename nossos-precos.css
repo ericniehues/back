@@ -1,0 +1,40 @@
+.nossos-precos-container {
+  padding-top: 64px;
+  height: 100%;
+}
+.titulo {
+  font-size: 36px;
+}
+.titulo p {
+  font-size: 16px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.card-preco {
+  border-radius: 10px;
+  width: 200px;
+  height: 400px;
+  text-align: center;
+  margin: 0 30px;
+}
+
+.card-preco ul {
+  margin-bottom: 30px;
+}
+.card-topo {
+  padding: 10px;
+
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+@media only screen and (max-width: 600px) {
+  .nossos-precos-container .flex-center-container {
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
+  .card-preco {
+    width: 350px;
+    min-width: 350px;
+  }
+}

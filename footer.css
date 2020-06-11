@@ -1,0 +1,20 @@
+.contato {
+  height: 150px;
+  width: 100%;
+}
+@media only screen and (max-width: 600px) {
+  .contato {
+    height: 330px;
+  }
+  .contato .flex-center-container {
+    flex-direction: column !important;
+  }
+}
+.contato h5 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.contato .input-field {
+  width: 250px;
+  margin-right: 20px;
+}

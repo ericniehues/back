@@ -1,0 +1,62 @@
+.sobre-container,
+.sobre-container .carousel {
+  height: 100%;
+}
+.sobre-container .carousel-fixed-item {
+  padding: 0 20px;
+  bottom: 50% !important;
+  justify-content: space-between;
+  display: flex;
+}
+.carousel-action {
+  background-color: rgba(0, 0, 0, 0.3);
+  margin-left: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  .carousel-action {
+    display: none;
+  }
+  .carousel-item .row {
+    display: flex;
+    flex-direction: column;
+  }
+  .carousel-item .row .info-center {
+    margin-top: 30px;
+    width: 100% !important;
+  }
+  .carousel-item img {
+    height: 200px !important;
+    width: 200px !important;
+  }
+}
+
+.carousel-action:hover {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+.carousel .carousel-item {
+  padding: 80px 50px 50px 50px;
+  box-sizing: border-box;
+}
+.info-center {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.vantagens-container i {
+  font-size: 14px !important;
+}
+.vantagens-container {
+  font-size: 16px;
+}
+.brand-logo {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.btn-detalhes {
+  width: fit-content;
+  margin-left: 20px;
+  color: black;
+}

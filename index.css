@@ -1,0 +1,30 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+.container {
+  height: 100%;
+}
+.flex-container {
+  display: flex;
+}
+.flex-center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex-row-container {
+  display: flex;
+  flex-direction: row;
+}
+.page-container {
+  height: 100%;
+}
+.sub-titulo {
+  font-size: 36px;
+  padding-bottom: 20px;
+}
